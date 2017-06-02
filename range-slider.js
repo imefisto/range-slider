@@ -1,3 +1,9 @@
+(function (root, factory) {
+    if (typeof define === "function" && define.amd) define([], factory);
+    else if (typeof exports === "object") module.exports = factory();
+    else root.RS = factory();
+}(this, function() {
+
 /*!
  * ==========================================================
  *  RANGE SLIDER 2.0.1
@@ -7,7 +13,7 @@
  * ----------------------------------------------------------
  */
 
-function RS(target, event, vertical) {
+return function(target, event, vertical) {
 
     event = event || {};
 
@@ -159,3 +165,5 @@ function RS(target, event, vertical) {
     return setSize(), dragInit(), target;
 
 }
+
+}));

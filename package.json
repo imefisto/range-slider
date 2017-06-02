@@ -1,0 +1,20 @@
+{
+  "name": "range-slider",
+  "version": "1.0.0",
+  "description": "Simple Custom Range Slider ==========================",
+  "main": "range-slider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imefisto/range-slider.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imefisto/range-slider/issues"
+  },
+  "homepage": "https://github.com/imefisto/range-slider#readme"
+}
